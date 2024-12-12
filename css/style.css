@@ -1,0 +1,45 @@
+/*general styles for the body */
+body{
+    font-family: Arial,  sans-serif;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    background-color: #f0f8ff;
+}
+/*styling for the title */
+#title{
+    color: #333;
+    font-size:2.5rem;
+    margin-top:20px;
+}
+
+/*input field styling*/
+#nameInput{
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    margin:10px 0;
+}
+
+/*button styling */
+#displayButton{
+    padding: 10px 20px;
+    font-size:1rem;
+    color:white;
+    background-color:#007bff;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+#displayButton:hover{
+    background-color: #0056b3;
+}
+
+/*output text styling*/
+#output{
+    margin-top: 20px;
+    font-size:1.5rem;
+    color:#007bff;
+    font-weight: bold;
+}
