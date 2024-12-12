@@ -19,7 +19,7 @@ displayButton.addEventListener("click", () => {
     } else {
         //if input is valid display the name
         output.textContent = `Hello, ${userName}!`;
-        output.style.color = "red" ;//reset text color to blue
+        output.style.color = "#007bff" ;//reset text color to blue
 
     }
 
